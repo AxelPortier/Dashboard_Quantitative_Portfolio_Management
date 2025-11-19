@@ -37,5 +37,5 @@ plt.ylabel("Prix de Clôture (USD)", fontsize=12)
 # Ajouter une grille pour la lisibilité
 plt.grid(True, linestyle='--', alpha=0.7)
 
-# Afficher le graphique
+
 plt.show()
