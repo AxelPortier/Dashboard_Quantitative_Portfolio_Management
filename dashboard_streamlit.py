@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 # IMPORTANT : J'ajoute cet import. Vous devez avoir un fichier 'univariate_analysis.py' 
 # qui contient la fonction 'univariate_analysis_page()'
-import univariate_analysis as ua 
+from pages.univariate_analysis import univariate_analysis_page
 
 
 # Configuration initiale de la page
@@ -217,7 +217,7 @@ def display_univariate_module():
         st.session_state['page'] = 'dashboard'
         st.experimental_rerun()
     
-    ua.univariate_analysis_page()
+    univariate_analysis_page()
 
 
 # --- 3. FONCTION D'AFFICHAGE DE LA PAGE MULTIVARIATE (NON DÉTAILLÉE ICI) ---
