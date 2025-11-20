@@ -244,3 +244,5 @@ elif st.session_state['page'] == 'multivariate':
 st.sidebar.title("Navigation Manuelle")
 selection = st.sidebar.radio("Pages", list(PAGES.values()), index=list(PAGES.keys()).index(st.session_state['page']), key='sidebar_nav')
 if PAGES[st.session_state['page']] != selection:
+    st.session_state['page'] = list(PAGES.keys())[list(PAGES.values()).index(selection)]
+    st.experimental_rerun()
