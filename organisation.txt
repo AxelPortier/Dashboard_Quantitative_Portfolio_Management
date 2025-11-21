@@ -1,0 +1,24 @@
+Organisation branches:
+- main: version stable du dashboard, fonctionne toujours
+- dev: integration des features avant passage en prod, lancer localement pour check que ça marche
+- quant A
+- quant B
+- cron_job (temporaire)
+
+
+Pages:
+- page d'acceuil: Pour l'instant présentation simple, (A voir si on peut pas Personaliser la page d'acceuil en stockant les données)
+- page single asset (petite forecasting, penser liste déroulante actions, puis appel API)
+
+
+- page portfolio (forecasting de portfolio à faire)
+- volatilé/risque/max drawdawn à mettre en rouge
+- 
+
+
+Différents step:
+- Retrieve Data: On a un truc fonstionnel, chercher soit bloomberg soit scrapping
+
+- Automatic refresh: 
+
+- Daily Report: Faire plusieurs choix de report (Asie, USA, secteurs), sur la page daily report depuis la branch
